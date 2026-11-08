@@ -1,0 +1,9 @@
+DETECCION DE IMAGENES EN YOLO COMANDO
+yolo predict model=yolov8n.pt source=prueba.jpg project="D:\Artur\Documens\Teschi\Teschi\semestre 8\Parcial 2\IA\Detec_human_inun\img" name="casa"
+
+2
+
+yolo predict model=yolov8n.pt source="D:\Artur\Documens\Teschi\Teschi\semestre 8\Parcial 2\IA\Detec_human_inun\img\video.mp4" project="D:\Artur\Documens\Teschi\Teschi\semestre 8\Parcial 2\IA\Detec_human_inun\img" name="detec" exist_ok=True
+
+CAMARA DE PC
+yolo predict model=yolov8n.pt source=0 show=True
